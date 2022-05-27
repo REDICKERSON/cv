@@ -1,0 +1,305 @@
+/****** Font Imports *******/
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
+
+
+
+/***************** TAG SELECTORS ******************/
+
+body {
+    text-align: center;
+    background-color: #FEFBE7;
+    margin: 0px;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+   
+}
+
+h1 {
+    margin: 50px auto -25 auto;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    color: #ecf3fd;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2.0rem;
+    color: #112B3C;
+    
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: #F66B0E;
+}
+/***************** .CLASS SELECTORS ******************/
+.btn, .gitBTN {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover, .gitBTN:hover {
+    background: #ffae78;
+    background-image: -webkit-linear-gradient(top, #ffae78, #F66B0E);
+    background-image: -moz-linear-gradient(top, #ffae78, #F66B0E);
+    background-image: -ms-linear-gradient(top, #ffae78, #F66B0E);
+    background-image: -o-linear-gradient(top, #ffae78, #F66B0E);
+    background-image: linear-gradient(to bottom, #ffae78, #F66B0E);
+    text-decoration: none;
+  }
+
+.intro-and-clouds {
+    width: 50%;
+    margin: 100 auto 50 auto;
+    
+    
+}
+/* .centered {
+    text-align: center;
+} */
+.fullstack {
+    color: #ff7f29;
+}
+
+.hello {
+    color: #ff7f29;
+}
+
+hr {
+    
+    width:80%;        
+   
+}
+.not-programming-line {
+    margin-top: -20;
+}
+
+.profile {
+    margin-top: 0;
+    width: 50%;
+    margin: 50px auto 100px auto;
+    line-height: 1.5;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+.skills-table {
+    width: 50%;
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    position: relative;
+    
+}
+
+.top-container {
+    /* background-color: #112B3C; */
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(126,166,195,1) 100%);
+    margin: 0 auto 0 auto;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 25px;  
+    
+    
+}
+
+.skill-img-container {
+    background-color: #FEFBE7;
+    
+    margin: 0 auto 0 auto;
+    position: relative;
+    padding-top: 1px;
+    padding-bottom: 50px;
+    height: 200px;
+    
+}
+
+.middle-container {
+    background-color: #FEFBE7;
+    
+    margin: 0 auto 0 auto;
+    position: relative;
+    padding-top: 1px;
+    padding-bottom: 25px;
+}
+
+.contact-me {
+    background-color: #FEFBE7;
+    
+    margin: 0 auto 0 auto;
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    width: 50%;
+}
+.contact-p {
+    margin-top: 15px;
+    clear: both;
+    line-height: 1.5;
+}
+
+.bottom-container {
+    background-color: #4b5768;
+    
+    margin: 0 auto 0 auto;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    
+}
+
+.footer-link {
+    margin: 10 10 10 10;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #ff7f29;
+}
+
+.footer-C {
+    color: black;
+}
+
+.zoomable:hover {
+    transform: scale(115%);
+}
+
+
+/************* IMAGES .CLASS SELECTORS *************/
+
+.moon-img {
+    width: 100%;
+}
+
+.net-img {
+    height: 100px;
+    width: 100px;
+}
+.cogwheel {
+    margin: 0 20 0 auto;
+    width: 12%;    
+    position: relative; 
+    float: left;
+}
+
+.email-icon {
+    margin: 0 20 0 auto;
+    width: 65px;
+    height: 65px;    
+    position: relative; 
+    
+}
+
+.profile-img {
+    border-radius: 100%;
+    margin-bottom: 40;
+}
+
+.cloud-1 {
+    position: absolute;
+    right: 50;
+    top: 115;
+    width: 25%;
+    float: right;
+    
+}
+.cloud-2 {
+    position: absolute;
+    left: 30;
+    top: 430;
+    width: 25%;
+    float: right;
+}
+.cloud-3 {
+    transform: scale(50%);
+    position: absolute;
+}
+.cloud-4 {
+    transform: scale(50%);
+    position: absolute;
+}
+
+.coffee-cup {
+    margin: 0 auto 0 auto;
+    height: 125px;
+    width: 125px;
+    position: relative;
+    float: right;
+    
+}
+
+.coffee-mug {
+    margin-bottom: -15;
+    height: 80px;
+    width: 100px;
+    position: relative;
+    
+    
+    
+}
+.coffee-mug:hover {
+    transform: scale(115%);
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+/***************** PROJECT CARDS ******************/
+
+.project1-card-img {
+    
+    position: relative;
+    width: 100%;   
+    margin-bottom: 10px; 
+    
+}
+.project2-card-img {
+    
+    position: relative;
+    width: 100%;   
+    margin-bottom: 10px; 
+    
+}
+.project3-card-img {
+    position: relative;
+    width: 100%;   
+    margin-bottom: 10px;
+}
+
+.project-1-container, .project-2-container, .project-3-container {
+    margin: 25 auto;
+}
+
+.project-card-github-link {
+    text-align: center;
+}
+.dots-hr {    
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #b6b3a9;
+    border-width: 5px;
+    width:15%;  
+
+}
+
+
